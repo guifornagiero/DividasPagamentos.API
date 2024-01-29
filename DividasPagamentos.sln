@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Service", "01 - Service", "{E708B70B-C942-4B5B-A8F4-FA0B75955A41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{1EAAE64F-B269-4E16-8B30-2E18E07D420F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{50CA34C9-2DB2-416C-8913-00002E5A1F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", "{A903E6E1-3FEF-4E48-BEB8-FCDDD6231AE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DividasPagamentos.Domain", "DividasPagamentos.Domain\DividasPagamentos.Domain.csproj", "{0A4BC5E5-89EE-44A2-A4D5-D876E13648F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DividasPagamentos.API", "DividasPagamentos.API\DividasPagamentos.API.csproj", "{E371F81E-77DD-46B9-B7E8-47A9AB2F3892}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DividasPagamentos.Infra", "DividasPagamentos.Infra\DividasPagamentos.Infra.csproj", "{015F99A9-455E-45D1-A52B-1A16995A23F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DividasPagamentos.Application", "DividasPagamentos.Application\DividasPagamentos.Application.csproj", "{413574FF-F618-4B57-B878-6CF1CABB3803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A4BC5E5-89EE-44A2-A4D5-D876E13648F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4BC5E5-89EE-44A2-A4D5-D876E13648F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4BC5E5-89EE-44A2-A4D5-D876E13648F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4BC5E5-89EE-44A2-A4D5-D876E13648F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E371F81E-77DD-46B9-B7E8-47A9AB2F3892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E371F81E-77DD-46B9-B7E8-47A9AB2F3892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E371F81E-77DD-46B9-B7E8-47A9AB2F3892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E371F81E-77DD-46B9-B7E8-47A9AB2F3892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015F99A9-455E-45D1-A52B-1A16995A23F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015F99A9-455E-45D1-A52B-1A16995A23F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015F99A9-455E-45D1-A52B-1A16995A23F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015F99A9-455E-45D1-A52B-1A16995A23F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413574FF-F618-4B57-B878-6CF1CABB3803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413574FF-F618-4B57-B878-6CF1CABB3803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413574FF-F618-4B57-B878-6CF1CABB3803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413574FF-F618-4B57-B878-6CF1CABB3803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A4BC5E5-89EE-44A2-A4D5-D876E13648F5} = {50CA34C9-2DB2-416C-8913-00002E5A1F19}
+		{E371F81E-77DD-46B9-B7E8-47A9AB2F3892} = {E708B70B-C942-4B5B-A8F4-FA0B75955A41}
+		{015F99A9-455E-45D1-A52B-1A16995A23F0} = {A903E6E1-3FEF-4E48-BEB8-FCDDD6231AE9}
+		{413574FF-F618-4B57-B878-6CF1CABB3803} = {1EAAE64F-B269-4E16-8B30-2E18E07D420F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77EF8CAE-C0FB-4780-95B8-C1D4704C372D}
+	EndGlobalSection
+EndGlobal
